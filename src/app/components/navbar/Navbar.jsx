@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link href="/">Hulu Ad Blocker</Link>
           </li>
           <li className={styles.link}>
-            <Link href="/about">ABOUT </Link>
+            <Link href="#about">ABOUT </Link>
           </li>
           <li className={styles.link}>
             <Link href="#accordian">FAQ</Link>
@@ -49,7 +49,7 @@ const Navbar = () => {
               <Link href="/">Hulu Ad Blocker</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/about">ABOUT </Link>
+              <Link href="#about">ABOUT </Link>
             </li>
             <li className={styles.link}>
               <Link href="#accordian">FAQ</Link>
