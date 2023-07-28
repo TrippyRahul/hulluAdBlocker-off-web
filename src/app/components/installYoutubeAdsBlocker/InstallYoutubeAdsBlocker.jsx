@@ -1,6 +1,7 @@
 import React from "react";
 import "./installYoutubeAdsBlocker.scss";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const InstallYoutubeAdsBlocker = () => {
   return (
@@ -32,7 +33,7 @@ const InstallYoutubeAdsBlocker = () => {
             <li> Skip hulu ads in hulu</li>
           </ul>
         </div>
-        <button>Install Extension</button>
+        <Button/>
       </div>
     </div>
   );

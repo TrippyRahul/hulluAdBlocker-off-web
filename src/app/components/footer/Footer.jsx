@@ -4,6 +4,7 @@ import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 import Link from "next/link";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const Footer = () => {
   return (
@@ -19,7 +20,7 @@ const Footer = () => {
         <h2>Hulu Ad Blocker</h2>
         <p>Enjoy the ultimate watching experience with hulu ad blocker.</p>
 
-        <button>Install Extension</button>
+       <Button/>
 
         <hr className={styles.line} style={{ color: "gray" }} />
 

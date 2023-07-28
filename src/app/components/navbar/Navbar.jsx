@@ -13,12 +13,7 @@ const Navbar = () => {
         <ul className={styles.links}>
           <li className={styles.logo}>
             <Link href="/">
-              <Image
-                src="./navbar-logo.svg"
-                alt="youtube-ad-blocker-logo"
-                width={96}
-                height={54}
-              />
+              <Image src="/favicon.svg" alt="logo" width={96} height={54} />
             </Link>
           </li>
           <li className={styles.link}>
@@ -46,12 +41,7 @@ const Navbar = () => {
         <div className={styles.mobile}>
           <div className={styles.logo}>
             <Link href="/">
-              <Image
-                src="./navbar-logo.svg"
-                alt="youtube-ad-blocker-logo"
-                width={96}
-                height={54}
-              />
+              <Image src="/favicon.svg" alt="logo" width={96} height={54} />
             </Link>
           </div>
           <ul className={styles.links}>

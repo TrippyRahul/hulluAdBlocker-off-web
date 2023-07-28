@@ -2,6 +2,7 @@ import React from "react";
 import "./header.scss";
 import Navbar from "../navbar/Navbar";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const Header = () => {
   return (
@@ -23,7 +24,7 @@ const Header = () => {
               interruptions. For ad free experience, you need to install it, you
               can remove ads from hulu.
             </p>
-            <button>Install Extension</button>
+            <Button/>
           </div>
           <div className="right">
             <Image

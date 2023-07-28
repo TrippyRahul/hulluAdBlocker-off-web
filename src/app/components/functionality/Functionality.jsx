@@ -17,7 +17,7 @@ const data = [
   },
   {
     id: 3,
-    icon: "/ant-design_safety-outlined.svg",
+    icon: "/thunder.svg",
     heading: "This extension fasten your browser speed",
     desc: "By installing this commercial free hulu you can maintain your web speed.",
   },
