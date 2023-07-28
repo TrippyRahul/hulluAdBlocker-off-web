@@ -7,9 +7,9 @@ import Schema from "./Schema";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Hulu Ad Blocker",
+  title: "Enjoy the ultimate watching experience with hulu ad blocker",
   description:
-    "Enjoy the ultimate watching experience with hulu ad blocker.",
+    " No more video or display ads during streaming sessions. Install now for an ad-free experience",
 };
 
 export default function RootLayout({ children }) {
@@ -21,12 +21,10 @@ export default function RootLayout({ children }) {
 
         <meta property="og:url" content="https://www.huluadblocker.net/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="hulu Ad Blocker" />
+        <meta property="og:title" content="Enjoy the ultimate watching experience with hulu ad blocker" />
         <meta
           property="og:description"
-          content="Enjoy the ultimate watching experience with
-
-hulu ad blocker."
+          content=" No more video or display ads during streaming sessions. Install now for an ad-free experience"
         />
         <meta
           property="og:image"
@@ -35,16 +33,11 @@ hulu ad blocker."
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="huluadblocker.net" />
-        <meta
-          property="twitter:url"
-          content="https://www.huluadblocker.net/"
-        />
-        <meta name="twitter:title" content="hulu Ad Blocker" />
+        <meta property="twitter:url" content="https://www.huluadblocker.net/" />
+        <meta name="twitter:title" content="Enjoy the ultimate watching experience with hulu ad blocker" />
         <meta
           name="twitter:description"
-          content="Enjoy the ultimate watching experience with
-
-hulu ad blocker."
+          content=" No more video or display ads during streaming sessions. Install now for an ad-free experience"
         />
         <meta
           name="twitter:image"
