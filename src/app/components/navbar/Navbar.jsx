@@ -13,7 +13,7 @@ const Navbar = () => {
         <ul className={styles.links}>
           <li className={styles.logo}>
             <Link href="/">
-              <Image src="/nav-logo.svg" alt="logo" width={96} height={54} />
+              <Image src="/nav-logo.png" alt="logo" width={96} height={54} />
             </Link>
           </li>
           <li className={styles.link}>
@@ -41,7 +41,13 @@ const Navbar = () => {
         <div className={styles.mobile}>
           <div className={styles.logo}>
             <Link href="/">
-              <Image src="/nav-logo.svg" alt="logo" width={96} height={54} />
+              <Image
+                src="/nav-logo.png"
+                alt="logo"
+                width={50}
+                height={50}
+                style={{ mixBlendMode: "multiply", borderRadius: "50%" }}
+              />
             </Link>
           </div>
           <ul className={styles.links}>
