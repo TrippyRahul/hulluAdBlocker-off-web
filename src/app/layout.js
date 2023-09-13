@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="/favicon.svg" />
+        <link rel="icon" type="image/x-icon" href="/nav-logo.png" />
         <link rel="canonical" href="https://www.huluadblocker.net/" />
 
         <meta property="og:url" content="https://www.huluadblocker.net/" />
