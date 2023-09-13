@@ -20,16 +20,20 @@ const Footer = () => {
         <h2>Hulu Ad Blocker</h2>
         <p>Enjoy the ultimate watching experience with hulu ad blocker.</p>
 
-       <Button/>
+        <Button />
 
         <hr className={styles.line} style={{ color: "gray" }} />
 
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span> add free hulu, remove ads from
-              hulu, hulu commercial free, hulu no commercials, commercial free
-              hulu, adblock for hulu, hulu ad free
+              <span>Popular searches : </span>{" "}
+              <a href="https://www.trueadblocker.net/" target="_blank">
+                trueadblocker
+              </a>{" "}
+              , add free hulu, remove ads from hulu, hulu commercial free, hulu
+              no commercials, commercial free hulu, adblock for hulu, hulu ad
+              free
             </p>
           </div>
           <ul>
