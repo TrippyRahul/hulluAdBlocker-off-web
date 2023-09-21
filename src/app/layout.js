@@ -18,6 +18,8 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/nav-logo.png" />
         <link rel="canonical" href="https://www.huluadblocker.net/" />
+        <meta name="google-site-verification" content="XCgxDalrgHtypXbth4qBvP6bzqgavYtkcMDEEpuzoEU" />
+
 
         <meta property="og:url" content="https://www.huluadblocker.net/" />
         <meta property="og:type" content="website" />
