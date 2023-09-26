@@ -6,13 +6,6 @@ import Button from "../button/Button";
 const AboutYoutubeAdBlocker = () => {
   return (
     <div className="aboutYoutubeAdBlocker" id="about">
-      {/* <Image
-        src="/howToadd-bg.svg"
-        width={2091.29}
-        height={1195.05}
-        className="bg"
-        alt="how-to-add"
-      /> */}
       <div className="container">
         <div className="content">
           <div className="left">
@@ -33,7 +26,7 @@ const AboutYoutubeAdBlocker = () => {
             </p>
           </div>
           <div className="right">
-            <Image src="/about.svg" fill alt="about-logo" className="image" />
+            <Image src="/2.svg" fill alt="about-logo" className="image" />
           </div>
         </div>
         <Button />

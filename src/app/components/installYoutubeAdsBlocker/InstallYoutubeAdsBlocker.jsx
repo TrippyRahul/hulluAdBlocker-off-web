@@ -6,13 +6,6 @@ import Button from "../button/Button";
 const InstallYoutubeAdsBlocker = () => {
   return (
     <div className="installYoutubeAdsBlocker">
-      {/* <Image
-        src="/install-bg.svg"
-        width={1817.37}
-        height={1045.26}
-        className="bg"
-        alt="install-bg"
-      /> */}
       <div className="container">
         <h2>Experience hulu with no ads in hulu extension</h2>
 
@@ -33,7 +26,7 @@ const InstallYoutubeAdsBlocker = () => {
             <li> Skip hulu ads in hulu</li>
           </ul>
         </div>
-        <Button/>
+        <Button />
       </div>
     </div>
   );

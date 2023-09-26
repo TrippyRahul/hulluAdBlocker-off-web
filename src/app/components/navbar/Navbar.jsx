@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import styles from "./navbar.module.scss";
 import Link from "next/link";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,14 @@ const Navbar = () => {
           </li>
           <li className={styles.link}>
             <Link href="#accordian">FAQ</Link>
+          </li>
+          <li className={styles.link}>
+            <Link href="/support">Support</Link>
+          </li>
+        </ul>
+        <ul className={styles.links}>
+          <li className={styles.link}>
+            <Button />
           </li>
         </ul>
 
@@ -59,6 +68,9 @@ const Navbar = () => {
             </li>
             <li className={styles.link}>
               <Link href="#accordian">FAQ</Link>
+            </li>
+            <li className={styles.link}>
+              <Link href="/support">Support</Link>
             </li>
           </ul>
         </div>
