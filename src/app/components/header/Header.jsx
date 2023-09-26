@@ -24,15 +24,10 @@ const Header = () => {
               interruptions. For ad free experience, you need to install it, you
               can remove ads from hulu.
             </p>
-            <Button/>
+            <Button />
           </div>
           <div className="right">
-            <Image
-              src="./header-main.svg"
-              alt="header-main"
-              fill
-              className="image"
-            />
+            <Image src="/1.svg" alt="header-main" fill className="image" />
           </div>
         </div>
       </section>
