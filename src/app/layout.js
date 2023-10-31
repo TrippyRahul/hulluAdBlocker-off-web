@@ -3,6 +3,7 @@ import Footer from "./components/footer/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Schema from "./Schema";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,12 +19,17 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/nav-logo.png" />
         <link rel="canonical" href="https://www.huluadblocker.net/" />
-        <meta name="google-site-verification" content="XCgxDalrgHtypXbth4qBvP6bzqgavYtkcMDEEpuzoEU" />
-
+        <meta
+          name="google-site-verification"
+          content="XCgxDalrgHtypXbth4qBvP6bzqgavYtkcMDEEpuzoEU"
+        />
 
         <meta property="og:url" content="https://www.huluadblocker.net/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Enjoy the ultimate watching experience with hulu ad blocker" />
+        <meta
+          property="og:title"
+          content="Enjoy the ultimate watching experience with hulu ad blocker"
+        />
         <meta
           property="og:description"
           content=" No more video or display ads during streaming sessions. Install now for an ad-free experience"
@@ -36,7 +42,10 @@ export default function RootLayout({ children }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="huluadblocker.net" />
         <meta property="twitter:url" content="https://www.huluadblocker.net/" />
-        <meta name="twitter:title" content="Enjoy the ultimate watching experience with hulu ad blocker" />
+        <meta
+          name="twitter:title"
+          content="Enjoy the ultimate watching experience with hulu ad blocker"
+        />
         <meta
           name="twitter:description"
           content=" No more video or display ads during streaming sessions. Install now for an ad-free experience"
@@ -44,6 +53,18 @@ export default function RootLayout({ children }) {
         <meta
           name="twitter:image"
           content="https://www.huluadblocker.net/favicon.svg"
+        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-4QE6SNTKVK" />
+        <Script
+          id="gtm-script"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-4QE6SNTKVK');
+          `,
+          }}
         />
       </head>
       <body className={inter.className}>
